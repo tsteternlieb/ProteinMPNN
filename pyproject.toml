@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "protein_mpnn_pip"
+version = "0.1.0"
+description = "A pip installable version of pytorch proteinMPNN"
+readme = "README.md"
+authors = [
+    {name = "Theo Sternlieb", email = "tsternlieb@wesleyan.edu.com"},
+]
+license = "MIT"
+homepage = "https://github.com/tsteternlieb/ProteinMPNN"
+repository = "https://github.com/tsteternlieb/ProteinMPNN"
+
+[project.urls]
+Documentation = "https://github.com/tsteternlieb/ProteinMPNN"
+
+[project.scripts]
+# Here you can define console scripts
+
+[project.dependencies]
+numpy = "^1.21.2"
+torch = "^1.10.0"
+
+[project.dev-dependencies]
+# Here you can define dev dependencies
+pytest = "^6.2.5"
